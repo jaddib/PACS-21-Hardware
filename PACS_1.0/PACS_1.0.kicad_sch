@@ -3,7 +3,12 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "6996cbc8-fffb-40fd-8350-2bb7d19e6e7a")
-	(paper "A4")
+	(paper "USLegal")
+	(title_block
+		(title "Main Sheet")
+		(rev "1.0")
+		(company "PACS")
+	)
 	(lib_symbols
 		(symbol "CSTNR4M00GH5L000R0:CSTNR4M00GH5L000R0"
 			(pin_names
@@ -3127,6 +3132,120 @@
 				(path "/6996cbc8-fffb-40fd-8350-2bb7d19e6e7a"
 					(reference "#PWR02")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 261.62 88.9)
+		(size 45.72 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "42e25d24-aaf4-4f95-8860-7598e427a501")
+		(property "Sheetname" "Actuators"
+			(at 261.62 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PACS_1.0_actuators.kicad_sch"
+			(at 261.62 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PACS_1.0"
+				(path "/6996cbc8-fffb-40fd-8350-2bb7d19e6e7a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 43.18)
+		(size 50.8 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "630878d5-00b9-479f-bc27-1c377eb1e012")
+		(property "Sheetname" "Sensors"
+			(at 223.52 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PACS_1.0_sensors.kicad_sch"
+			(at 223.52 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PACS_1.0"
+				(path "/6996cbc8-fffb-40fd-8350-2bb7d19e6e7a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 111.76)
+		(size 41.91 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dd51c51a-fa64-4ebf-8f16-6468af1aee8c")
+		(property "Sheetname" "Power_USB"
+			(at 199.39 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PACS_1.0_power.kicad_sch"
+			(at 199.39 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PACS_1.0"
+				(path "/6996cbc8-fffb-40fd-8350-2bb7d19e6e7a"
+					(page "2")
 				)
 			)
 		)

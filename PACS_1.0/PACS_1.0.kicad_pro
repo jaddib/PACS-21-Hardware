@@ -239,7 +239,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -401,6 +401,18 @@
     [
       "6996cbc8-fffb-40fd-8350-2bb7d19e6e7a",
       "Root"
+    ],
+    [
+      "dd51c51a-fa64-4ebf-8f16-6468af1aee8c",
+      "Power_USB"
+    ],
+    [
+      "630878d5-00b9-479f-bc27-1c377eb1e012",
+      "Sensors"
+    ],
+    [
+      "42e25d24-aaf4-4f95-8860-7598e427a501",
+      "Actuators"
     ]
   ],
   "text_variables": {}

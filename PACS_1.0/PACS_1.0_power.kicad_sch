@@ -1,0 +1,12 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5132f260-676f-48bd-b831-39eb1a7c3b9c")
+	(paper "USLegal")
+	(title_block
+		(rev "1.0")
+		(company "PACS")
+	)
+	(lib_symbols)
+)
