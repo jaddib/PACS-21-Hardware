@@ -1455,7 +1455,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 118.11) (xy 152.4 118.11)
+			(xy 116.84 118.11) (xy 152.4 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2175,7 +2175,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 44.45) (xy 152.4 44.45)
+			(xy 115.57 44.45) (xy 152.4 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2235,7 +2235,7 @@
 	)
 	(hierarchical_label "VIN"
 		(shape input)
-		(at 143.51 44.45 180)
+		(at 115.57 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2259,7 +2259,7 @@
 	)
 	(hierarchical_label "VIN"
 		(shape input)
-		(at 143.51 118.11 180)
+		(at 116.84 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3363,7 +3363,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 48.26 90.17 0)
+		(at 31.75 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3372,7 +3372,7 @@
 		(fields_autoplaced yes)
 		(uuid "5be6451a-c355-4e93-9d71-a29b01788986")
 		(property "Reference" "BT1"
-			(at 52.07 88.3284 0)
+			(at 35.56 74.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,7 +3381,7 @@
 			)
 		)
 		(property "Value" "7.2V"
-			(at 52.07 90.8684 0)
+			(at 35.56 76.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +3390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 88.646 90)
+			(at 31.75 74.676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3399,7 +3399,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 88.646 90)
+			(at 31.75 74.676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3408,7 +3408,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 48.26 90.17 0)
+			(at 31.75 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1697,6 +1697,44 @@
 		)
 	)
 	(sheet
+		(at 220.98 38.1)
+		(size 26.67 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2328e835-669b-4c27-8f58-8619ea15ff21")
+		(property "Sheetname" "Water Pump"
+			(at 220.98 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PACS_1.0_pump.kicad_sch"
+			(at 220.98 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PACS_1.0"
+				(path "/6996cbc8-fffb-40fd-8350-2bb7d19e6e7a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 165.1 38.1)
 		(size 33.02 17.78)
 		(fields_autoplaced yes)
@@ -1708,7 +1746,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "42e25d24-aaf4-4f95-8860-7598e427a501")
-		(property "Sheetname" "Actuators"
+		(property "Sheetname" "LEDS"
 			(at 165.1 37.3884 0)
 			(effects
 				(font
@@ -1717,7 +1755,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PACS_1.0_actuators.kicad_sch"
+		(property "Sheetfile" "PACS_1.0_leds.kicad_sch"
 			(at 165.1 56.4646 0)
 			(effects
 				(font
