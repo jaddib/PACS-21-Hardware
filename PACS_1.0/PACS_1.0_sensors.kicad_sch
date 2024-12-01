@@ -1301,7 +1301,7 @@
 	)
 	(rectangle
 		(start 184.15 64.77)
-		(end 246.38 106.68)
+		(end 267.97 106.68)
 		(stroke
 			(width 0.254)
 			(type default)
@@ -1311,9 +1311,30 @@
 		)
 		(uuid 2d27379a-853d-4285-9d40-5d750903921e)
 	)
+	(text_box "Header for the Water Level Sensor. Outside pins (1 and 4) are the reference resistor Rref, and innner pins (2 and 3) are the sensor output Rsense."
+		(exclude_from_sim no)
+		(at 228.6 67.31 0)
+		(size 34.29 12.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "4aa59730-95af-4756-b521-ca4310a388f0")
+	)
 	(text "Water Level Sensor\n"
 		(exclude_from_sim no)
-		(at 236.728 105.664 0)
+		(at 257.81 105.664 0)
 		(effects
 			(font
 				(size 1.27 1.27)

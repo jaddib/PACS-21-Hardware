@@ -1697,7 +1697,7 @@
 		)
 	)
 	(sheet
-		(at 220.98 38.1)
+		(at 162.56 26.67)
 		(size 26.67 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -1708,8 +1708,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2328e835-669b-4c27-8f58-8619ea15ff21")
-		(property "Sheetname" "Water Pump"
-			(at 220.98 37.3884 0)
+		(property "Sheetname" "Actuators"
+			(at 162.56 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1717,8 +1717,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PACS_1.0_pump.kicad_sch"
-			(at 220.98 53.9246 0)
+		(property "Sheetfile" "PACS_1.0_actuators.kicad_sch"
+			(at 162.56 42.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1726,43 +1726,15 @@
 				(justify left top)
 			)
 		)
-		(instances
-			(project "PACS_1.0"
-				(path "/6996cbc8-fffb-40fd-8350-2bb7d19e6e7a"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 165.1 38.1)
-		(size 33.02 17.78)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "42e25d24-aaf4-4f95-8860-7598e427a501")
-		(property "Sheetname" "LEDS"
-			(at 165.1 37.3884 0)
+		(pin "PWM" input
+			(at 162.56 34.29 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
-		)
-		(property "Sheetfile" "PACS_1.0_leds.kicad_sch"
-			(at 165.1 56.4646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
+			(uuid "6eab60e1-db08-4182-90ec-eede468d84db")
 		)
 		(instances
 			(project "PACS_1.0"
@@ -1773,7 +1745,7 @@
 		)
 	)
 	(sheet
-		(at 209.55 78.74)
+		(at 240.03 17.78)
 		(size 33.02 30.48)
 		(fields_autoplaced yes)
 		(stroke
@@ -1785,7 +1757,7 @@
 		)
 		(uuid "630878d5-00b9-479f-bc27-1c377eb1e012")
 		(property "Sheetname" "Sensors"
-			(at 209.55 78.0284 0)
+			(at 240.03 17.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1794,7 +1766,7 @@
 			)
 		)
 		(property "Sheetfile" "PACS_1.0_sensors.kicad_sch"
-			(at 209.55 109.8046 0)
+			(at 240.03 48.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1803,7 +1775,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 209.55 82.55 180)
+			(at 240.03 21.59 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1813,7 +1785,7 @@
 			(uuid "fa359c4d-698d-47ec-8631-e04143db7698")
 		)
 		(pin "SCL" output
-			(at 209.55 86.36 180)
+			(at 240.03 25.4 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1823,7 +1795,7 @@
 			(uuid "3608e309-9fcf-47c4-b68d-47bfc9b36909")
 		)
 		(pin "Analog_0" output
-			(at 209.55 96.52 180)
+			(at 240.03 35.56 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1833,7 +1805,7 @@
 			(uuid "0748e0a6-70b8-4ac2-8d39-a9c399275fe1")
 		)
 		(pin "INT_Light" output
-			(at 209.55 90.17 180)
+			(at 240.03 29.21 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1843,7 +1815,7 @@
 			(uuid "8e175307-0075-4288-817e-8a5be7e52db5")
 		)
 		(pin "Analog_1" output
-			(at 209.55 104.14 180)
+			(at 240.03 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1861,7 +1833,7 @@
 		)
 	)
 	(sheet
-		(at 172.72 119.38)
+		(at 240.03 67.31)
 		(size 33.02 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -1873,7 +1845,7 @@
 		)
 		(uuid "dd51c51a-fa64-4ebf-8f16-6468af1aee8c")
 		(property "Sheetname" "Power"
-			(at 172.72 118.6684 0)
+			(at 240.03 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1882,7 +1854,7 @@
 			)
 		)
 		(property "Sheetfile" "PACS_1.0_power.kicad_sch"
-			(at 172.72 137.7446 0)
+			(at 240.03 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,7 +1863,7 @@
 			)
 		)
 		(pin "EN5V" input
-			(at 172.72 133.35 180)
+			(at 240.03 81.28 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,7 +1873,7 @@
 			(uuid "644bc28c-fdb7-4bc4-b875-8824d283d948")
 		)
 		(pin "VIN" input
-			(at 172.72 123.19 180)
+			(at 240.03 71.12 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1911,7 +1883,7 @@
 			(uuid "b2a6e200-02e0-4b43-8288-98c3f340c791")
 		)
 		(pin "EN3.3V" input
-			(at 172.72 129.54 180)
+			(at 240.03 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
