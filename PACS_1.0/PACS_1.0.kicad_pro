@@ -592,6 +592,10 @@
     [
       "2328e835-669b-4c27-8f58-8619ea15ff21",
       "Actuators"
+    ],
+    [
+      "e639144c-29e9-4864-978f-8ae17353cb56",
+      "Zigbee Module"
     ]
   ],
   "text_variables": {}
