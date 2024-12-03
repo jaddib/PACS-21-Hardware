@@ -25,8 +25,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -50,6 +50,15 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Ref Name" "AOSS32334C"
+				(at 5.08 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 72 72 1)
+					)
 				)
 			)
 			(symbol "AOSS32334C_1_1"
@@ -76,7 +85,7 @@
 					)
 				)
 				(circle
-					(center -5.715 -5.715)
+					(center -6.3578 -5.7114)
 					(radius 0.2337)
 					(stroke
 						(width 0)
@@ -87,7 +96,7 @@
 					)
 				)
 				(circle
-					(center -5.715 -2.54)
+					(center -6.35 -2.54)
 					(radius 0.2337)
 					(stroke
 						(width 0)
@@ -98,7 +107,7 @@
 					)
 				)
 				(circle
-					(center -5.715 2.54)
+					(center -6.35 2.54)
 					(radius 0.2337)
 					(stroke
 						(width 0)
@@ -242,7 +251,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.715 -2.54) (xy -5.715 -10.795)
+						(xy -6.35 -2.54) (xy -6.35 -10.795)
 					)
 					(stroke
 						(width 0)
@@ -254,7 +263,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.715 2.54) (xy -5.715 8.255)
+						(xy -6.35 2.54) (xy -6.35 8.255)
 					)
 					(stroke
 						(width 0)
@@ -278,7 +287,7 @@
 				)
 				(polyline
 					(pts
-						(xy -12.065 0) (xy -12.065 -5.715) (xy -5.715 -5.715)
+						(xy -12.065 0) (xy -12.065 -5.715) (xy -6.2985 -5.7114)
 					)
 					(stroke
 						(width 0)
@@ -326,7 +335,7 @@
 				)
 				(polyline
 					(pts
-						(xy -8.89 0) (xy -5.715 0) (xy -5.715 -2.54) (xy -8.89 -2.54)
+						(xy -8.89 0) (xy -6.35 0) (xy -6.35 -2.54) (xy -8.89 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -338,7 +347,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.715 -2.54) (xy -3.81 -2.54) (xy -3.81 2.54) (xy -8.89 2.54)
+						(xy -6.35 -2.54) (xy -3.81 -2.54) (xy -3.81 2.54) (xy -8.89 2.54)
 					)
 					(stroke
 						(width 0)
@@ -360,15 +369,6 @@
 						(type outline)
 					)
 				)
-				(text "AOSS32334C"
-					(at 5.715 -2.54 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-							(color 0 72 72 1)
-						)
-					)
-				)
 				(pin input line
 					(at -20.32 0 0)
 					(length 2.54)
@@ -388,7 +388,7 @@
 					)
 				)
 				(pin input line
-					(at -5.715 -10.795 90)
+					(at -6.35 -11.43 90)
 					(length 2.54)
 					(name ""
 						(effects
@@ -406,7 +406,7 @@
 					)
 				)
 				(pin output line
-					(at -5.715 8.255 270)
+					(at -6.35 10.16 270)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1087,16 +1087,16 @@
 		)
 	)
 	(junction
+		(at 111.76 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f1704ce-16cc-4383-a5e7-c3655e071ac8")
+	)
+	(junction
 		(at 147.32 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e1f1e59-a2fc-4f28-9c93-029730d2b52e")
-	)
-	(junction
-		(at 112.395 100.965)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ce70c7d-df20-402a-9b1a-1c05f9ab2886")
 	)
 	(junction
 		(at 147.32 78.74)
@@ -1105,10 +1105,10 @@
 		(uuid "c5e717c1-33e5-434c-a4c2-8ca3abbc380e")
 	)
 	(junction
-		(at 112.395 116.205)
+		(at 111.76 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c603d514-d376-4ece-b530-de4de2683e91")
+		(uuid "fdb68327-b9c5-4971-9920-d577b2ec4cce")
 	)
 	(wire
 		(pts
@@ -1122,13 +1122,13 @@
 	)
 	(wire
 		(pts
-			(xy 112.395 116.205) (xy 140.97 116.205)
+			(xy 123.19 100.33) (xy 127 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27e4c6e2-5c08-4791-bd53-7bb0142b1dc7")
+		(uuid "1ebdd6cf-2e67-471a-b5c7-26080cdb3684")
 	)
 	(wire
 		(pts
@@ -1142,23 +1142,23 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 86.36) (xy 140.97 92.71)
+			(xy 111.76 115.57) (xy 140.97 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49c98294-8263-4133-99bb-0cddb78ccdac")
+		(uuid "4b8a43b1-b795-4706-bec3-2c6565ce5c59")
 	)
 	(wire
 		(pts
-			(xy 112.395 112.395) (xy 112.395 116.205)
+			(xy 111.76 115.57) (xy 111.76 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b355f2d-53a1-4a25-95e6-071aec1dbdd5")
+		(uuid "4e13f8ca-82d4-48d6-813b-5fd877c902e3")
 	)
 	(wire
 		(pts
@@ -1172,37 +1172,27 @@
 	)
 	(wire
 		(pts
-			(xy 112.395 100.965) (xy 114.935 100.965)
+			(xy 101.6 100.33) (xy 111.76 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71df9d77-9580-4acd-811f-806a18cac363")
+		(uuid "78596b93-0edd-421c-ac1a-5ab153e0847d")
 	)
 	(wire
 		(pts
-			(xy 122.555 100.965) (xy 126.365 100.965)
+			(xy 140.97 86.36) (xy 140.97 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74cbed21-04cd-4f63-a974-0d5fd7b0f382")
+		(uuid "8e48b94c-003a-4083-8f93-d8b705737a45")
 	)
 	(wire
 		(pts
-			(xy 103.505 100.965) (xy 112.395 100.965)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b606efc-ea1d-4278-b1ce-11a6d610a970")
-	)
-	(wire
-		(pts
-			(xy 140.97 111.76) (xy 140.97 116.205)
+			(xy 140.97 111.76) (xy 140.97 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1232,7 +1222,7 @@
 	)
 	(wire
 		(pts
-			(xy 112.395 100.965) (xy 112.395 104.775)
+			(xy 111.76 100.33) (xy 111.76 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1242,13 +1232,23 @@
 	)
 	(wire
 		(pts
-			(xy 112.395 116.205) (xy 112.395 118.745)
+			(xy 111.76 111.76) (xy 111.76 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fc69e45f-1e99-4813-8073-0a8ec3cefa6d")
+	)
+	(wire
+		(pts
+			(xy 111.76 100.33) (xy 115.57 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd633e0d-e8df-4366-a086-a3ad6bbf1c34")
 	)
 	(rectangle
 		(start 92.075 61.595)
@@ -1297,7 +1297,7 @@
 	)
 	(hierarchical_label "PWM"
 		(shape input)
-		(at 103.505 100.965 180)
+		(at 101.6 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1375,7 +1375,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 112.395 108.585 180)
+		(at 111.76 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1384,7 +1384,7 @@
 		(fields_autoplaced yes)
 		(uuid "47900476-1b60-41ba-b83c-c7b5ae415b30")
 		(property "Reference" "R5"
-			(at 114.935 107.3149 0)
+			(at 114.3 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1393,7 +1393,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 114.935 109.8549 0)
+			(at 114.3 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,7 +1402,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.173 108.585 90)
+			(at 113.538 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1411,7 +1411,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 112.395 108.585 0)
+			(at 111.76 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1420,7 +1420,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 112.395 108.585 0)
+			(at 111.76 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1445,7 +1445,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 118.745 100.965 90)
+		(at 119.38 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1454,7 +1454,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b9a295a-dc2e-4d39-8154-4142590adc70")
 		(property "Reference" "R4"
-			(at 118.745 94.615 90)
+			(at 119.38 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,7 +1462,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 118.745 97.155 90)
+			(at 119.38 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1470,7 +1470,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.745 102.743 90)
+			(at 119.38 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,7 +1479,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.745 100.965 0)
+			(at 119.38 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1488,7 +1488,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 118.745 100.965 0)
+			(at 119.38 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +1513,7 @@
 	)
 	(symbol
 		(lib_id "AOSS32334C:AOSS32334C")
-		(at 146.685 100.965 0)
+		(at 147.32 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1521,7 +1521,7 @@
 		(dnp no)
 		(uuid "9e67e955-766c-4452-8b5a-d94e5eeb0760")
 		(property "Reference" "Q1"
-			(at 145.923 100.965 0)
+			(at 146.558 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,7 +1530,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 159.385 103.505 0)
+			(at 160.02 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,8 +1538,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 146.685 100.965 0)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
+			(at 147.32 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,7 +1548,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.685 100.965 0)
+			(at 147.32 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,12 +1557,21 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.685 100.965 0)
+			(at 147.32 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ref Name" "AOSS32334C"
+			(at 152.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 72 72 1)
+				)
 			)
 		)
 		(pin "2"
@@ -1585,7 +1594,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 112.395 118.745 0)
+		(at 111.76 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1594,7 +1603,7 @@
 		(fields_autoplaced yes)
 		(uuid "b33d5499-4352-4af2-9da6-40b843fcec05")
 		(property "Reference" "#PWR013"
-			(at 112.395 125.095 0)
+			(at 111.76 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,7 +1612,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 112.395 123.825 0)
+			(at 111.76 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1611,7 +1620,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 112.395 118.745 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +1629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 112.395 118.745 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,7 +1638,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 112.395 118.745 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
