@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "ce9c8dbe-8b85-4966-aa6e-2f188740485d")
 	(paper "A4")
+	(title_block
+		(title "Water Pump")
+		(date "2024-12-04")
+		(rev "1.0")
+		(company "PACS")
+	)
 	(lib_symbols
 		(symbol "AOSS32334C:AOSS32334C"
 			(exclude_from_sim no)
@@ -1251,8 +1257,8 @@
 		(uuid "fd633e0d-e8df-4366-a086-a3ad6bbf1c34")
 	)
 	(rectangle
-		(start 92.075 61.595)
-		(end 193.675 127.635)
+		(start 85.725 61.595)
+		(end 194.31 127.635)
 		(stroke
 			(width 0.254)
 			(type default)
@@ -1295,7 +1301,7 @@
 		)
 		(uuid "518c8eb3-d876-4efe-a567-4a15f55fbcff")
 	)
-	(hierarchical_label "PWM"
+	(hierarchical_label "PWM_Pump"
 		(shape input)
 		(at 101.6 100.33 180)
 		(fields_autoplaced yes)
