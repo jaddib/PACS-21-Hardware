@@ -1268,50 +1268,36 @@
 				)
 			)
 		)
-		(symbol "S-1011A70-M6T1U4:S-1011A70-M6T1U4"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "S-80855CNMC-B9GT2U:S-80855CNMC-B9GT2U"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 20.32 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "S-1011A70-M6T1U4"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "SOT236-A-PKG_MP006-A-P-SD-2.1_ABL"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "S-1011A70-M6T1U4"
-				(at 0 0 0)
+			(property "Value" "S-80855CNMC-B9GT2U"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1320,15 +1306,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "S-1011A70-M6T1U4"
+			(property "Description" "Power Supervisor, 5.5V Threshold, Open Drain or Open Collector Output, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1337,20 +1315,22 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT236-A-PKG_MP006-A-P-SD-2.1_ABL SOT236-A-PKG_MP006-A-P-SD-2.1_ABL-M SOT236-A-PKG_MP006-A-P-SD-2.1_ABL-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "S-80855CNMC-B9GT2U_1_1"
+				(rectangle
+					(start -11.43 -3.81)
+					(end 11.43 -16.51)
+					(stroke
+						(width 0)
+						(type default)
 					)
-					(hide yes)
+					(fill
+						(type background)
+					)
 				)
-			)
-			(symbol "S-1011A70-M6T1U4_0_1"
-				(pin power_in line
-					(at 0 0 0)
-					(length 7.62)
-					(name "VDD"
+				(pin output line
+					(at 13.97 -12.7 180)
+					(length 2.54)
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1365,10 +1345,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "NC"
+				(pin passive line
+					(at 13.97 -7.62 180)
+					(length 2.54)
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1383,10 +1363,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "OUT"
+				(pin passive line
+					(at -13.97 -13.97 0)
+					(length 2.54)
+					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1401,10 +1381,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 40.64 -5.08 180)
-					(length 7.62)
-					(name "CP"
+				(pin passive line
+					(at -13.97 -10.16 0)
+					(length 2.54)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1419,10 +1399,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 40.64 -2.54 180)
-					(length 7.62)
-					(name "VSS"
+				(pin passive line
+					(at -13.97 -6.35 0)
+					(length 2.54)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1435,37 +1415,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-				(pin unspecified line
-					(at 40.64 0 180)
-					(length 7.62)
-					(name "CN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "S-1011A70-M6T1U4_1_1"
-				(rectangle
-					(start 7.62 5.08)
-					(end 33.02 -10.16)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -2107,6 +2056,18 @@
 		(uuid "32daf7b0-275b-4415-a900-550c504c84cb")
 	)
 	(junction
+		(at 41.91 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38103dd2-f425-4ca0-8e7b-61a212d81988")
+	)
+	(junction
+		(at 41.91 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b669054-7183-4da0-b5a1-8cd037195b27")
+	)
+	(junction
 		(at 95.25 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2184,14 +2145,6 @@
 		(color 0 0 0 0)
 		(uuid "fe6ded44-a946-4a7b-8320-6f413da6c0a0")
 	)
-	(no_connect
-		(at 36.83 107.95)
-		(uuid "2789f3ac-b438-4709-bcab-f5d710a08b5f")
-	)
-	(no_connect
-		(at 36.83 102.87)
-		(uuid "ac269582-00b8-4511-8800-bc49b8e7e49b")
-	)
 	(wire
 		(pts
 			(xy 33.02 48.26) (xy 33.02 52.07)
@@ -2244,7 +2197,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 95.25) (xy 95.25 95.25)
+			(xy 76.2 95.25) (xy 95.25 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2271,6 +2224,16 @@
 			(type default)
 		)
 		(uuid "1b0d7ea8-6e42-41c1-9588-c4fbd3551e33")
+	)
+	(wire
+		(pts
+			(xy 41.91 105.41) (xy 43.18 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c280948-8440-4443-8245-aea0c18aba5b")
 	)
 	(wire
 		(pts
@@ -2344,13 +2307,13 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 110.49) (xy 29.21 105.41)
+			(xy 41.91 105.41) (xy 41.91 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38cf3d6a-b8e7-4cc5-b558-a7aec3069b8b")
+		(uuid "37f89d87-41b3-4554-9e3c-b5ec58036da3")
 	)
 	(wire
 		(pts
@@ -2414,7 +2377,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 95.25) (xy 77.47 102.87)
+			(xy 76.2 95.25) (xy 76.2 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2471,6 +2434,16 @@
 			(type default)
 		)
 		(uuid "759a5613-e875-4163-9a6b-3369802f90de")
+	)
+	(wire
+		(pts
+			(xy 43.18 109.22) (xy 41.91 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf0f931-1b90-4c92-936e-8abb24e34e0b")
 	)
 	(wire
 		(pts
@@ -2694,7 +2667,7 @@
 	)
 	(polyline
 		(pts
-			(xy 24.13 88.9) (xy 24.13 147.32)
+			(xy 24.13 88.9) (xy 24.13 144.78)
 		)
 		(stroke
 			(width 0.254)
@@ -2731,6 +2704,16 @@
 			(type default)
 		)
 		(uuid "adc02d45-bd85-4171-8865-8780aacbebee")
+	)
+	(wire
+		(pts
+			(xy 76.2 102.87) (xy 71.12 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b071bfa1-10d8-4f0e-a947-f3e61bf1a08b")
 	)
 	(wire
 		(pts
@@ -2804,7 +2787,7 @@
 	)
 	(polyline
 		(pts
-			(xy 119.38 147.32) (xy 119.38 88.9)
+			(xy 119.38 144.78) (xy 119.38 88.9)
 		)
 		(stroke
 			(width 0.254)
@@ -2834,13 +2817,23 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 107.95) (xy 95.25 107.95)
+			(xy 71.12 107.95) (xy 95.25 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c2b87886-86de-4737-a4b8-d10006635763")
+	)
+	(wire
+		(pts
+			(xy 41.91 101.6) (xy 43.18 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b11d33-3e6e-44c6-95b0-b5265af784ef")
 	)
 	(wire
 		(pts
@@ -2884,16 +2877,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 105.41) (xy 36.83 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccdedf1d-2ff3-4d6a-929c-ba1c9a2d259e")
-	)
-	(wire
-		(pts
 			(xy 256.54 73.66) (xy 262.89 73.66)
 		)
 		(stroke
@@ -2932,6 +2915,16 @@
 		)
 		(uuid "e2d8f0d2-d560-4612-8bfc-b8d9d2af5336")
 	)
+	(wire
+		(pts
+			(xy 41.91 109.22) (xy 41.91 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5dfdaaa-3d92-459c-8bf8-925dedcf13e0")
+	)
 	(polyline
 		(pts
 			(xy 91.44 88.9) (xy 24.13 88.9)
@@ -2951,6 +2944,16 @@
 			(type default)
 		)
 		(uuid "e8e1a2f8-2ae8-43ba-94d1-62fa11572b86")
+	)
+	(wire
+		(pts
+			(xy 41.91 101.6) (xy 41.91 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea90cec7-6c1b-4610-b989-70a69b3a0fe4")
 	)
 	(wire
 		(pts
@@ -3024,7 +3027,7 @@
 	)
 	(polyline
 		(pts
-			(xy 24.13 147.32) (xy 119.38 147.32)
+			(xy 24.13 144.78) (xy 119.38 144.78)
 		)
 		(stroke
 			(width 0.254)
@@ -3093,10 +3096,10 @@
 		)
 		(uuid "6565df0d-bd37-4f4b-bf70-4878b50f621d")
 	)
-	(text_box "-Vdet = 7V ± 1.5%\nTherefore lowest detection voltage is 6.895V\nThat gives ~3.45V per cell which is in safe range.\n\nTypical Hysteresis Width = -Vdet * 0.05 = 0.35V\nMax Hysteresis Width = -Vdet * 0.08 = 0.56V\nTherefore Max +Vdet = 7.56V\n\nTherefore possibility of low output until Vdd = 7.56V\nCharging cells to 3.8V is in safe range giving 7.6V"
+	(text_box "-Vdet = 5.5V ± 2.0%\nTherefore lowest detection voltage is 5.39V (SAFE).\n\nTypical Hysteresis Width = -Vdet * 0.05 = 0.275V\nTypical +Vdet = 5.775V\n\nMax Hysteresis Width = -Vdet * 0.08 = 0.44V\nMax +Vdet (using max Vdet 5.61V and max Hysteresis) = 6.05V\n\nTherefore possibility of low output until Vdd = 6.05V (SAFE)."
 		(exclude_from_sim no)
-		(at 27.94 120.65 0)
-		(size 64.77 21.59)
+		(at 26.67 121.92 0)
+		(size 66.04 21.59)
 		(stroke
 			(width 0)
 			(type default)
@@ -3156,7 +3159,7 @@
 		)
 		(uuid "fa6cc45b-07fe-4718-87da-ba28cfd68907")
 	)
-	(text_box "PS5-6 Sealed Lead Acid Battery\n6 V, 20Ah\nPowersonic PS-6200"
+	(text_box "PS5-6 Sealed Lead Acid Battery\n6 V, 8Ah\nPowersonic PS-682"
 		(exclude_from_sim no)
 		(at 16.51 38.1 0)
 		(size 34.29 7.62)
@@ -3179,7 +3182,7 @@
 	)
 	(text "Undervoltage Protection"
 		(exclude_from_sim no)
-		(at 106.68 146.05 0)
+		(at 107.188 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3214,7 +3217,7 @@
 		(uuid "b3a9cb77-7cd6-4d9f-9400-ac0ff847b68a")
 	)
 	(hierarchical_label "A_Voltage"
-		(shape input)
+		(shape output)
 		(at 223.52 137.16 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3763,6 +3766,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 41.91 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f27dde4-7a3e-4d23-871c-1307b0b15949")
+		(property "Reference" "#PWR027"
+			(at 41.91 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9852757c-250e-48ef-abb5-73cbdb74b341")
+		)
+		(instances
+			(project "PACS_1.0"
+				(path "/6996cbc8-fffb-40fd-8350-2bb7d19e6e7a/dd51c51a-fa64-4ebf-8f16-6468af1aee8c"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 262.89 66.04 0)
 		(unit 1)
@@ -4287,7 +4356,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.65k"
+		(property "Value" "5.76k"
 			(at 208.28 146.0499 0)
 			(effects
 				(font
@@ -4472,72 +4541,6 @@
 			(project ""
 				(path "/6996cbc8-fffb-40fd-8350-2bb7d19e6e7a/dd51c51a-fa64-4ebf-8f16-6468af1aee8c"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 29.21 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4471c3e-039a-43d8-b496-fe67811a8d74")
-		(property "Reference" "#PWR027"
-			(at 29.21 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 29.21 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b8b2e9e-de80-4c2e-8f8b-2f4d5db211ce")
-		)
-		(instances
-			(project "PACS_1.0"
-				(path "/6996cbc8-fffb-40fd-8350-2bb7d19e6e7a/dd51c51a-fa64-4ebf-8f16-6468af1aee8c"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5355,89 +5358,6 @@
 		)
 	)
 	(symbol
-		(lib_id "S-1011A70-M6T1U4:S-1011A70-M6T1U4")
-		(at 77.47 102.87 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9332d9d-5df1-4a9e-9de8-df4d8ea2b2b1")
-		(property "Reference" "U6"
-			(at 57.15 92.71 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "S-1011A70-M6T1U4"
-			(at 57.15 95.25 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SOT236-A-PKG_MP006-A-P-SD-2.1_ABL"
-			(at 77.47 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "S-1011A70-M6T1U4"
-			(at 77.47 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "816dfb55-9fe9-4c1d-a436-1002d9e224bc")
-		)
-		(pin "4"
-			(uuid "2f75ccfd-9cd0-4717-8cda-9607f3799b5a")
-		)
-		(pin "5"
-			(uuid "d50f0cd5-eca4-41f8-9728-5ad50a4337db")
-		)
-		(pin "1"
-			(uuid "11058473-cff4-4b16-8fc3-3fd610b67d98")
-		)
-		(pin "3"
-			(uuid "132c557d-c034-4c03-a98e-9621434c767f")
-		)
-		(pin "6"
-			(uuid "74cc0381-e9d6-400a-9269-897b471aa667")
-		)
-		(instances
-			(project ""
-				(path "/6996cbc8-fffb-40fd-8350-2bb7d19e6e7a/dd51c51a-fa64-4ebf-8f16-6468af1aee8c"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 181.61 107.95 0)
 		(unit 1)
@@ -5573,6 +5493,83 @@
 			(project "PACS_1.0"
 				(path "/6996cbc8-fffb-40fd-8350-2bb7d19e6e7a/dd51c51a-fa64-4ebf-8f16-6468af1aee8c"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "S-80855CNMC-B9GT2U:S-80855CNMC-B9GT2U")
+		(at 57.15 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe9d069f-fcba-4165-ad4b-07aa10560789")
+		(property "Reference" "U8"
+			(at 57.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S-80855CNMC-B9GT2U"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 57.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Supervisor, 5.5V Threshold, Open Drain or Open Collector Output, SOT-23-5"
+			(at 57.15 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b9ec08e4-2c62-4b25-abed-42122e55b454")
+		)
+		(pin "1"
+			(uuid "e0afff1b-a789-4826-bade-1b0b7cd149a7")
+		)
+		(pin "5"
+			(uuid "3f98a61c-9d1a-4f02-a82a-10f56cc0e193")
+		)
+		(pin "3"
+			(uuid "a7860b85-9158-4788-9f74-b5450b9df2f5")
+		)
+		(pin "2"
+			(uuid "90ae8660-4f6a-49f6-9bda-3036a7a0a55d")
+		)
+		(instances
+			(project ""
+				(path "/6996cbc8-fffb-40fd-8350-2bb7d19e6e7a/dd51c51a-fa64-4ebf-8f16-6468af1aee8c"
+					(reference "U8")
 					(unit 1)
 				)
 			)
