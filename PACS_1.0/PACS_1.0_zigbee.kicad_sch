@@ -1269,6 +1269,18 @@
 		)
 		(uuid "fb0562dd-6688-4840-bec6-907d092feeec")
 	)
+	(rectangle
+		(start 44.45 26.67)
+		(end 237.49 151.13)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c6a51557-8b12-42ed-a458-0c901dbcea00)
+	)
 	(text_box "V_REF (pin 14) is not supported on this device."
 		(exclude_from_sim no)
 		(at 191.77 106.68 0)
@@ -1331,6 +1343,18 @@
 			(justify left top)
 		)
 		(uuid "b13d0259-9427-4f1c-a5d6-3c578f09b2e0")
+	)
+	(text "Zigbee Module"
+		(exclude_from_sim no)
+		(at 229.362 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "2020af9f-e763-4ea5-ac1d-0e25b8cbfd22")
 	)
 	(text "Module Sleep Information"
 		(exclude_from_sim no)
