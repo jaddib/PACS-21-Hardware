@@ -4189,7 +4189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BSS84PH6327XTSA2:SOT-23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 			(at 203.2 116.84 0)
 			(effects
 				(font
