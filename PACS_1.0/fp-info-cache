@@ -1,4 +1,4 @@
-24189311708184337
+24191049728457768
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87394,6 +87394,13 @@ Taiyo Yuden NRF51822 Module Bluetooth
 0
 30
 28
+RF_Module
+XB24CZ7WIT-004
+
+
+0
+0
+0
 RF_Module
 ZETA-433-SO_SMD
 RF transceiver SMD style https://www.rfsolutions.co.uk/downloads/1456219226DS-ZETA.pdf

@@ -1708,7 +1708,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RF_Module:XB24CZ7WIT-004"
 			(at 118.745 147.955 0)
 			(effects
 				(font
