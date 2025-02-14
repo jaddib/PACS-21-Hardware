@@ -1,0 +1,16 @@
+Contact Name:  Jad Dib
+Contact Email:  jdib@ualberta.ca
+Group Number:  21
+Course:  ECE 491
+
+Board Manufacturing Method (professional/milled):  professional
+Check only: no  
+Number of Boards of this Design to be Produced:  5 (JLC has minimum 5)
+Board Cost estimate: $2.00
+Shipping Cost estimate: $17.50 (DHL EXPRESS)
+Board Size (include units): 73.7mm x 42.8mm
+
+Stencil Production (none, top, bottom, both): none
+
+Special Instructions (special laminate requirements, necessity of clear-out milling, etc.): no
+
