@@ -1,0 +1,1 @@
+This folder contains Fusion 360 design files for the Plant Automated Care System (PACS). It includes 3D models for the custom enclosure components: the battery compartment, PCB housing, lid for the PCB, and a sprinkler head designed to connect to an 8mm PVC tube. These parts are optimized for 3D printing in PETG and designed for modular assembly and water resistance.
